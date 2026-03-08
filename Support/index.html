@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="/images/favicon.ico">
+    <title>Support - WiAutoClicker</title>
+</head>
+<body>
+
+<img class="main-bg" src="/images/background.jpg" alt="">
+
+<header class="topbar">
+    <div class="container header-flex">
+        <div class="logo">
+            <img src="/images/logo.png" alt="Logo">
+            <span>EcoForums</span>
+        </div>
+        <nav class="navigation">
+            <a href="index.html">Main</a>
+            <a href="#">Download</a>
+            <a href="support.html">Support</a>
+        </nav>
+    </div>
+</header>
+
+<div class="container main-content">
+    <div class="aero-window">
+        <div class="aero-header">
+            <h2>Support & Feedback</h2>
+        </div>
+        <div class="inner-content">
+            <p>Fill out the form below to send a message directly to our team. Please allow 24 hours for a response.</p>
+            
+            <form action="https://formspree.io/f/mzdjzjkr" method="POST" style="margin-top: 20px;">
+                <div class="form-group">
+                    <label>Your Email Address:</label>
+                    <input type="email" name="email" required placeholder="user@example.com">
+                </div>
+                
+                <div class="form-group">
+                    <label>Subject / Category:</label>
+                    <input type="text" name="subject" placeholder="Bug Report, Help, etc.">
+                </div>
+
+                <div class="form-group">
+                    <label>Your Message:</label>
+                    <textarea name="message" rows="6" required placeholder="Describe your issue..."></textarea>
+                </div>
+
+                <button type="submit" class="aero-button">Submit Ticket</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
